@@ -1,0 +1,167 @@
+
+body
+
+{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 110%;
+    background-color: rgb(240, 250, 248);
+    
+}
+
+body img
+
+{
+
+    width: 10%;
+
+
+}
+
+
+header
+
+{
+    background-color: rgb(108, 139, 167);
+}
+
+nav
+
+
+{
+    display: inline-block;
+
+    width: 80%;
+
+    flex-wrap: wrap;
+
+    
+
+}
+
+nav a 
+
+{
+
+    color: rgb(241, 241, 241);
+    font-size: 24px;
+    text-decoration: none;
+
+
+}
+
+
+ul
+
+{
+    display: flex;
+
+    list-style-type: none;
+
+    flex-direction: row;
+
+    justify-content: space-evenly;
+
+}
+
+
+
+
+main
+
+{
+    background-color: rgb(180, 220, 245);
+
+    font-size: 130%;
+
+
+
+}
+
+footer
+
+{
+
+    background-color: rgb(176, 213, 201);
+
+}
+
+h1
+
+{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    color: rgb(241, 241, 241);
+
+}
+
+p
+
+{  
+    line-height: 90%;
+}
+
+
+.grid
+
+{
+
+    display: grid;
+
+    grid-template-columns: 40% 40%;
+
+    justify-content: space-evenly;
+
+    align-items: center;
+
+    row-gap: 20px;
+
+
+
+}
+ 
+.grid img
+
+{
+    width: 100%;
+
+}
+   
+
+.flex 
+
+{
+
+    display: flex;
+
+    justify-content: space-evenly;
+
+    max-height: 100%;
+
+    flex-wrap: wrap;
+
+
+}
+
+.flex img 
+
+{
+
+  flex: 0 0 100px;
+
+}
+
+.current
+
+{
+
+    text-transform: uppercase;
+
+    background-color: rgb(94, 111, 122);
+
+    
+
+
+}
+
+
+
